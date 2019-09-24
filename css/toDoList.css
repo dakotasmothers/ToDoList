@@ -44,3 +44,35 @@ input {
 #submit:hover{
     background-color: rgb(238, 255, 0);
 }
+
+/*Styles for the ul and li*/
+
+ul {
+    margin-top: 20px;
+    text-align: left;
+}
+
+li {
+    list-style: none;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 10px;
+    margin: 10px;
+    background-color: #5bd6f5;
+
+}
+.delete{
+    display: none;
+}
+
+/* Target any buttons whose parent is a list item */
+
+li > button{
+    float: right;
+    border: none;
+    background: none;
+    color: white;
+}
